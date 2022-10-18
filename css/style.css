@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+padding: 30px 0;
+}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+    
+}
+.menu{
+
+width: 50%;
+}
+.menu ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+.menu ul li{
+    
+}
+.menu ul li a{
+    
+text-decoration: none;
+    
+text-transform: capitalize;
+    
+color: #97999b;
+    
+margin-left: 50px;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 15px;
+}
+.banner{
+
+position: relative;
+}
+.banner img{
+    
+width: 100%;
+    
+display: block;
+}
+.banner_content{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+    
+color: #ffffff;
+    
+font-size: 40px;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 700;
+    
+font-size: 40px;
+}
+.banner_content p{
+    
+color: #ffffff;
+    
+margin: 20px 0;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 18px;
+}
+.banner_content button{
+    
+background-color: #fb6e52;
+    
+color: #ffffff;
+    
+padding: 15px 30px;
+    
+border: 1px solid;
+    
+border-radius: 5px;
+    
+margin-top: 30px;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 500;
+    
+font-size: 15px;
+}
+.banner_content button i{
+    
+}
+.content{
+
+width: 80%;
+
+margin: auto;
+
+padding: 70px 0;
+}
+.service{
+
+display: flex;
+
+justify-content: space-between;
+}
+.service_item{
+
+width: 31%;
+
+text-align: center;
+}
+.service_item img{
+    
+}
+.service_item h2{
+    
+color: #292c34;
+    
+margin: 15px 0;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 20px;
+}
+.service_item p{
+    
+color: #97999b;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 300;
+    
+font-size: 15px;
+}
+.content_quote{
+
+width: 60%;
+
+text-align: center;
+
+margin: 80px auto;
+}
+.content_quote h1{
+    
+color: #fb6e52;
+    
+font-size: 30px;
+    
+font-style: italic;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 300;
+    
+font-size: 30px;
+}
+.content_image{
+
+display: flex;
+
+justify-content: space-between;
+}
+.image_item{
+
+width: 32%;
+
+text-align: center;
+}
+.image_item img{
+
+width: 100%;
+}
+.image_item h2{
+
+color: #292c34;
+
+margin: 15px 0;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 400;
+
+font-size: 20px;
+}
+.image_item p{
+
+color: #97999b;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 300;
+
+font-size: 15px;
+}
+.blog{
+
+background-color: #f9f9f9;
+
+padding: 70px 0;
+}
+.blog h1{
+
+color: #292c34;
+
+margin-bottom: 70px;
+
+text-align: center;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 400;
+
+font-size: 25px;
+}
+.blog_design{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.blog_design_item{
+
+width: 48%;
+}
+.blog_design_item img{
+    
+width: 100%;
+}
+.blog_design_item h2{
+    
+color: #fb6e52;
+    
+margin: 15px 0;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 20px;
+}
+.blog_design_item p{
+    
+color: #97999b;
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 300;
+    
+font-size: 15px;
+}
+footer{
+
+background-color: #292c34;
+
+padding: 25px 0;
+}
+.footer_wrapper{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+
+align-items: center;
+}
+.terms{
+
+width: 30%;
+}
+.terms ul{
+
+display: flex;
+
+align-items: center;
+}
+.terms ul li{
+
+list-style: none;
+
+margin-right: 25px;
+}
+.terms ul li img{
+
+}
+.terms ul li a{
+
+text-decoration: none;
+
+color: #797c82;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 300;
+
+font-size: 15px;
+}
+.social_icon{
+
+width: 10%;
+}
+.social_icon ul{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.social_icon ul li{
+    
+list-style: none;
+}
+.social_icon ul li a{
+
+color: #e1e1e2;
+}
